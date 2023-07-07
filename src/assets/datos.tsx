@@ -2,6 +2,7 @@ const props = {
     data: [{
         id: 1,
         title: "Transf Bancaria",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Proveedores Tecnología</div>],
         date: "08/06/23",
         amount: 8555.2,
@@ -19,6 +20,7 @@ const props = {
     {
         id: 2,
         title: "SPEI Transfer",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Proveedores Tecnología</div>],
         date: "08/06/23",
         amount: 25666.9,
@@ -36,6 +38,7 @@ const props = {
     {
         id: 3,
         title: "Paypal Semana 1 Junio",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Software</div>, <div>IVA Acreeditable</div>],
         date: "00/00/00",
         amount: 58333,
@@ -45,6 +48,7 @@ const props = {
     {
         id: 4,
         title: "Pago AWS",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Proveedores Tecnología</div>],
         date: "00/00/00",
         amount: 7952,
@@ -62,6 +66,7 @@ const props = {
     {
         id: 5,
         title: "Pago TelCel Junio",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Telefonía</div>],
         date: "00/00/00",
         amount: 10555,
@@ -75,6 +80,7 @@ const props = {
     {
         id: 6,
         title: "",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Renta Inmueble</div>],
         date: "06/06/23",
         amount: 10555,
@@ -88,6 +94,7 @@ const props = {
     {
         id: 7,
         title: "Nutriclinic Junio",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Software</div>,<div>Asesoría</div>,<div>IVA Acreeditable</div>,],
         date: "00/00/00",
         amount: 40100,
@@ -105,9 +112,10 @@ const props = {
     {
         id: 8,
         title: "Pago AWS 8",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Proveedores Tecnología</div>],
         date: "00/00/00",
-        amount: 7952,
+        amount: 79522,
         icons: [
         {
         label: 1,
@@ -122,6 +130,7 @@ const props = {
     {
         id: 9,
         title: "Pago AWS 9",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet consectetur adipisicing elit.",
         tag: [<div>Proveedores Tecnología</div>],
         date: "00/00/00",
         amount: 7952,
@@ -139,6 +148,7 @@ const props = {
     {
         id: 10,
         title: "Pago AWS 10",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
         tag: [<div>Proveedores Tecnología</div>],
         date: "00/00/00",
         amount: 7952,

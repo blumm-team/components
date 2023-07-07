@@ -5,6 +5,7 @@ export interface IActionSection {
 export interface ITableData {
     id: number;
     title: string;
+    description?: string
     tag?: React.ReactNode[];
     date: Date | string;
     amount: number | string;
