@@ -48,10 +48,11 @@ export default function RowTable(data : ITableProps){
                 </div>
         </div> 
         : 
-        <div className="flex flex-col rounded-md md:text-lg pt-3 pb-3 min-h-screen m-auto border-azul-4 border-solid items-center"> 
+        <div className="flex flex-col bg-azul-4 bg-opacity-20 font-roboto rounded-md md:text-lg pt-3 pb-3 min-h-screen h-full m-auto border-azul-4 border-solid items-center"> 
+            <div className="w-11/12 rounded border-azul-4 border-2">
             {data.data.map(({date, tag, title, id, amount, icons}) => {
                 return(
-                <div key={id} className="flex flex-row bg-gray-50 w-11/12 p-2 items-center border-azul-4 border-solid border-y-[1px]">
+                <div key={id} className="flex flex-row w-full bg-gray-50 p-2 items-center border-azul-4 border-solid border-y-[1px]">
                 <div className="w-11/12">
                     <div className="text-gris-2 text-sm">{title}</div>
                     <div className="flex flex-row gap-1">
@@ -70,7 +71,7 @@ export default function RowTable(data : ITableProps){
                     </div>
                  </div>
             </div>)})}
-            
+            </div>
         </div>} 
         </div>
     )
